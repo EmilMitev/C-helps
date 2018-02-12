@@ -48,7 +48,7 @@ int main(void)
 	char * search = "Get_Application_Property(CALLING_FORM)";
 	char * replace = "NVL(:PARAMETER.P_CALLING_FORM, Get_Application_Property(CALLING_FORM))";
 
-	source = replace_str(source, search, replace);;
+	source = replace_str(source, search, replace);
 	printf("%s\n", source);
 	return 0;
 }
